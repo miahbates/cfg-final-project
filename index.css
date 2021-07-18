@@ -48,16 +48,9 @@ nav {
   width: 80px;
   border: 1.5px solid #1f2c38;
   font-size: 1.4rem;
-  margin: 0;
+  margin-top: 10px;
   font-family: "roboto", 'Open Sans', 'Helvetica Neue', sans-serif;
   font-weight: 200;
-}
-
-.icon {
-  color: #1f2c38;
-  display:  block;
-  padding: 5px;
-  font-size: 2rem;
 }
 
 .homepagepic {
@@ -78,7 +71,7 @@ p {
   margin: 0 15px;
   font-size: 1.5rem;
   color: #1f2c38;
-  width: 60vw;
+  width: 90vw;
   font-family: "roboto", 'Open Sans', 'Helvetica Neue', sans-serif;
   font-size: 1.5rem;
 }
@@ -147,11 +140,39 @@ section {
   grid-row: 3 / 4;
 }
 
+.nav-word {
+  font-family: "roboto", 'Open Sans', 'Helvetica Neue', sans-serif;
+  color:  #1f2c38;
+  font-size: 1.5rem;
+  padding: 0 10px;
+}
+
+.icon:hover {
+  background-color:rgb(19, 177, 129, 0.6);
+  color: #1f2c38;
+
+}
+
+.icon {
+  color: #1f2c38;
+  display: inline-block;
+  padding: 5px;
+  font-size: 2rem;
+}
+
+.nav-word {
+  display: none;
+}
+
 
 @media screen and (min-width: 768px) {
-section {
+  section {
   height: 30vh;
   margin: 5% 0;
+}
+
+p {
+  width: 60vw;
 }
   .navlist ul {
     font-size: 2rem;
@@ -213,6 +234,21 @@ section {
 .btn {
   padding: 10px;
   margin: 20px;
+}
+
+
+.nav-word {
+  display: inline;
+}
+
+.nav-word:hover {
+  background-color:rgb(19, 177, 129, 0.6);
+  color: #1f2c38;
+
+}
+
+.icon {
+ display: none;
 }
 
 } 

@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/main.css">
+    <script src="./js/main.js"></script>
+    <title>Register</title>
+</head>
+<body>
+    <div class="container">
+        <div class="title">Registration</div>
+        <form action="#">
+            <div class="user-details">
+                <div class="input-box">
+                    <span class="details">First Name</span>
+                    <input type="text" placeholder=" Wirte your First Name" id="firstName" name="firstname" required>
+               </div>
+               <div class="input-box">
+                <span class="details">Last Name</span>
+                <input type="text" placeholder="Write yor Last name" id="lastname" name="lastname" required>
+            </div>
+                <div class="input-box">
+                    <label for="username">
+                    <span class="details">Username</span>
+                    <input type="text" placeholder="Write Username" id="username" name="username"  required>
+                </label>
+                </div>
+                <div class="input-box">
+                    <label for="email">
+                    <span class="details">Email</span>
+                    <input type="email" placeholder="Write your Email" id="email" name="email" required>
+                    </label>
+                </div>
+                <div class="input-box">
+                    <label>
+                    <span class="details">Mobile Number</span>
+                    <input type="number" placeholder="Write your Mobile Number" name="num"  required>
+                    </label>
+                </div>
+                <div class="input-box">
+                    <label for="password">
+                    <span class="details">Password</span>
+                    <input type="password" placeholder="Write your Password" id="password" required>
+                    </label>
+                </div>
+                
+            </div>
+            <div class="gender-details">
+                <span class="gender-title">Gender</span>
+                <div class="category">
+                   <span class="one">
+                    <label for="male">Male:</label>
+                    <input type="radio" name="gender-details" id="male" value="male">
+                   </span>
+                   <span class="two">
+                   <label for="Female">Female:</label>
+                    <input type="radio" name="gender-details" id="Female" value="Female">
+                   </span> 
+                   <span class="three">
+                    <label for="Prefer not to say">Prefer not to say:</label>
+                    <input type="radio" name="gender-details" id="Prefer not to say" value="Prefer not to say">
+               </span>
+                 </div>
+            </div>
+
+            <div class="agree">
+                <input type="checkbox" name="agree_tos" id="agree">
+                <label for="agree">I agree to everything</label>
+
+            </div>
+
+
+          <div class="button">  
+              <form action=""></form>
+                <input type="submit" value="Register">
+    
+          </div>
+
+        </form>
+
+        <hr>
+        <!-- These ones are ideas. Don't know if we going to add . -->
+        
+        <form action="#">
+        <h4 class="title">Or you can sign in with:</h4>
+        <div class="social-media-buttons">
+            <a href="https://accounts.google.com/signin/v2/identifier?flowName=GlifWebSignIn&flowEntry=ServiceLogin" target="_blank"  class="fa fa-google">Google</a>
+              <a href="https://en-gb.facebook.com/" target="_blank" class="fa fa-facebook">Facebook</a>
+              <a href="https://twitter.com/login?lang=en-gb" target="_blank" class="fa fa-twitter">Twitter</a>
+
+
+
+        </div>
+</form>
+    </div>
+    
+</body>
+</html>

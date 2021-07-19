@@ -172,3 +172,43 @@ form .button input:hover{
     }
 
 }
+
+
+@media(min-width:600px) {
+    .container{
+        max-width:100% ;
+    }
+
+    form .user-details .input-box{
+        margin-bottom: 15px;
+        width: 100%;
+    }
+
+    form .gender-details .category{
+        width: 100%;
+    }
+
+    .container form .user-details{
+        max-height: 300px;
+        overflow-y: scroll;}
+    }
+
+    @media(max-width:750px) {
+        .container{
+            max-width: 100% ;
+        }
+    
+        form .user-details .input-box{
+            margin-bottom: 10px;
+            width: 100%;
+        }
+    
+        form .gender-details .category{
+            width: 100px;
+        }
+    
+        .container form .user-details{
+            max-height: 350px;
+            overflow-y: scroll;}
+        }
+    

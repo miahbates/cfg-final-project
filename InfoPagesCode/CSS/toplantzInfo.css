@@ -1,0 +1,209 @@
+@import url('https://fonts.googleapis.com/css2?family=STIX+Two+Math&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+@media only screen and (min-width: 768px) {
+.container {
+    width: 95%;
+    margin: auto;
+    box-shadow: 10px 10px 8px #888888;
+    }
+
+body {
+    background-color: #f9f6f0; 
+    margin: 0px;
+    padding: 0px;
+    font-family: 'STIX Two Math', serif;
+}
+
+h1 {
+    color: #1f2c38;
+    text-align: center;
+    font-weight: 900;
+    font-size: 60px;
+    margin-top: 50px;
+    margin-bottom: 0;
+    margin-left: 20px;
+    opacity: 0.9;
+}
+
+h2 {
+    font-size: 35px;
+    color: #1f2c38;
+    font-weight: 700;
+    margin-bottom: 0;
+    margin-top: 10px;
+}
+
+h3 {
+    text-align: center;
+    font-style: italic;
+    color: #1f2c38;
+    font-weight: 580;
+    margin-top: 8px;
+    margin-left: 20px;
+    margin-bottom: 60px;
+}
+
+p {
+    font-size: 18px;
+    font-style: normal;
+    color: #1f2c38;
+    font-weight: 100;
+    margin-top: 0px;
+    margin-bottom: 30px;
+}
+
+.topBox {
+    object-fit: cover;
+    object-position: top;
+    width: 100%;
+    height: 600px;
+    z-index: 0;
+    opacity: 0.85;
+}
+
+.plant1 {
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: row;
+    background-color: #fffefb;
+    opacity: 0.8;
+    margin-bottom: 40px;
+    text-align: left;
+}
+
+.plant1>div {
+    margin: 0;
+    width: 100%;
+    height: auto;
+}
+  
+#plantImg1>img {
+    width: 100%;
+    height: 100%;
+}
+  
+#firstPlant {
+    width: 90%;
+    height: auto;
+    padding-right: 50px;
+    padding-left: 50px;
+    margin-top: 25px;
+}
+
+.plant2 {
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: row;
+    background-color: #fffefb;
+    opacity: 0.8;
+    margin-bottom: 40px;
+}
+  
+.plant2>div {
+    margin: 0;
+    width: 100%;
+    height: auto;
+}
+    
+#plantImg2>img {
+    width: 99%;
+    height: 100%;
+}
+    
+#secondPlant {
+    width: 80%;
+    height: auto;
+    padding-right: 50px;
+    padding-left: 50px;
+    margin-top: 25px;
+}
+
+.plant3 {
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: row;
+    background-color: #fffefb;
+    opacity: 0.8;
+    margin-bottom: 40px;
+}
+      
+.plant3>div {
+    margin: 0;
+    width: 100%;
+    height: auto;
+}
+        
+#plantImg3>img {
+    width: 100%;
+    height: 100%;
+}
+        
+#thirdPlant {
+    width: 90%;
+    height: auto;
+    padding-right: 50px;
+    padding-left: 50px;
+    margin-top: 25px;
+}
+
+@media only screen and (min-width: 320px) {
+    .container {
+    width: 100%;
+    box-shadow: 10px 10px 8px #888888;
+}
+}
+ 
+  @media only screen and (min-width: 980px) {
+    .container {
+    width: 90%;
+    margin: auto;
+    box-shadow: 10px 10px 8px #888888;  
+}
+}
+
+  @media only screen and (min-width: 1500px) {
+    .container {
+    width: 80%;
+    margin: auto;
+    }
+  }
+}
+
+footer {
+    background-color: rgba(0, 0, 0, 0.767);
+    text-align: center;
+    color: seashell;
+    width: 100%;
+    height: 200px;
+    padding: 50px;
+    border: 10px;
+    margin: auto; 
+    color: white;
+    }
+
+.item.social>a {
+    font-size: 20px;
+    width: 36px;
+    height: 36px;
+    line-height: 36px;
+    display: inline-block;
+    text-align: center;
+    border-radius: 50%;
+    box-shadow: 0 0 0 1px rgba(255, 255, 255, 0.4);
+    margin: 0 8px;
+    margin-bottom: 50px;
+    color: #fff;
+    opacity: 0.65;
+}
+
+.item.social>a:hover {
+    opacity: 1;
+}
+
+.copyright {
+    color: rgb(224, 217, 210);
+    font-family: 'Open Sans', sans-serif;
+    font-size: 12px;
+    opacity: 0.7;
+}

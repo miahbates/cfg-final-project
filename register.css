@@ -2,7 +2,7 @@ html{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-family: "Open Sans", Arial, Helvetica, sans-serif;
 
 }
 /* Stucture for the whole page.*/
@@ -13,7 +13,7 @@ body{
     justify-content: center;
     align-items: center;
     padding:10px;
-    background:linear-gradient(135deg,white,rgb(27, 83, 27)) ;
+    background:#f9f6f0; ;
 }
 /* inside the container or boxes*/
 .container

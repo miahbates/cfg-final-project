@@ -5,13 +5,13 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./register.css">
-    <script src="./js/main.js"></script>
+    <script src="./register.js"></script>
     <title>Register</title>
 </head>
 <body>
     <div class="container">
         <div class="title">Registration</div>
-        <form action="#">
+        <form id="registerForm">
             <div class="user-details">
                 <div class="input-box">
                     <span class="details">First Name</span>
@@ -19,30 +19,30 @@
                </div>
                <div class="input-box">
                 <span class="details">Last Name</span>
-                <input type="text" placeholder="Write yor Last name" id="lastname" name="lastname" required>
+                <input type="text" placeholder="Write yor Last name" id="lastname" name="lastname" >
             </div>
                 <div class="input-box">
                     <label for="username">
                     <span class="details">Username</span>
-                    <input type="text" placeholder="Write Username" id="username" name="username"  required>
+                    <input type="text" placeholder="Write Username" id="username" name="username" >
                 </label>
                 </div>
                 <div class="input-box">
                     <label for="email">
                     <span class="details">Email</span>
-                    <input type="email" placeholder="Write your Email" id="email" name="email" required>
+                    <input type="email" placeholder="Write your Email" id="email" name="email" >
                     </label>
                 </div>
                 <div class="input-box">
                     <label>
                     <span class="details">Mobile Number</span>
-                    <input type="number" placeholder="Write your Mobile Number" name="num"  required>
+                    <input type="number" placeholder="Write your Mobile Number" name="num"  >
                     </label>
                 </div>
                 <div class="input-box">
                     <label for="password">
                     <span class="details">Password</span>
-                    <input type="password" placeholder="Write your Password" id="password" required>
+                    <input type="password" placeholder="Write your Password" id="password" >
                     </label>
                 </div>
                 
@@ -67,37 +67,25 @@
 
             <div class="agree">
                 <input type="checkbox" name="agree_tos" id="agree">
-                <label for="agree">I agree to everything</label>
+                <label for="agree">I agree with terms and conditions</label>
 
             </div>
 
 
           <div class="button">  
               
-                
-                <input type="submit" value="Register">
+                <form action="#"></form>
+                <input onclick="myFunction()" type="submit" value="Register">
   
           </div>
-          <div>
+          
+              <div class="return-button">
               <a href="./index.html">Return back to Homepage</a>
           </div>
 
         </form>
 
-        <hr>
-        <!-- These ones are ideas. Don't know if we going to add . -->
-        
-        <form action="#">
-        <h4 class="title">Or you can sign in with:</h4>
-        <div class="social-media-buttons">
-            <a href="https://accounts.google.com/signin/v2/identifier?flowName=GlifWebSignIn&flowEntry=ServiceLogin" target="_blank"  class="fa fa-google">Google</a>
-              <a href="https://en-gb.facebook.com/" target="_blank" class="fa fa-facebook">Facebook</a>
-              <a href="https://twitter.com/login?lang=en-gb" target="_blank" class="fa fa-twitter">Twitter</a>
 
-
-
-        </div>
-</form>
     </div>
     
 </body>

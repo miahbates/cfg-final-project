@@ -1,8 +1,13 @@
 /*My css*/
-body {
-    font-size: 120%;
+html {
+    font-size: 62.5%;
     font-family: "Open Sans", Arial, Helvetica, sans-serif;
   }
+
+  a {
+    text-decoration: none; 
+    color:inherit;
+  }  
   
 body {
     margin: 0px;
@@ -44,6 +49,7 @@ p {
     margin-left: 100px;
     margin-right: 100px;
     font-weight: lighter;
+    font-size: 1.5rem;
 }
 
 footer {
@@ -85,16 +91,144 @@ footer {
   margin: auto;
 }
 
+/* nav bar css mobile/general */
+nav {
+  color: #1f2c38; 
+  width: 100vw;
+  position: sticky;
+  margin: 0;
+  height: 40px;
+  border-bottom: 5px solid #1f2c38;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navlist {
+  flex: 1;
+}
+
+.navlist ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  font-size: 1.5rem;
+  font-weight: 700;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.navlist ul li {
+  padding: 4px;
+  margin: 2px;
+  text-align: center;
+  letter-spacing: 1px;
+  border-right: solid 2px #b3c4af;
+}
+
+.rightside {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: baseline;
+  width: 500px;
+  padding: 5px;
+  flex: 4;
+}
+
+#search-input {
+  border-radius: 25px;
+  width: 70px;
+  border: 1.5px solid #1f2c38;
+  font-size: 1.4rem;
+  margin-top: 10px;
+  font-family: "roboto", 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-weight: 200;
+}
+
+.nav-word {
+  font-family: "roboto", 'Open Sans', 'Helvetica Neue', sans-serif;
+  color:  #1f2c38;
+  font-size: 1.5rem;
+  padding: 0 10px;
+  transition: background-color .2s, color .2s;
+  border-radius: 5px;
+
+}
+
+.icon {
+  color: #1f2c38;
+  display: inline-block;
+  padding: 7px 5px;
+  font-size: 1.5rem;
+  transition: background-color .2s, color .2s;
+
+}
+
+.icon:hover {
+  background-color:rgb(19, 177, 129, 0.6);
+  color: #1f2c38;
+}
+
+.nav-word {
+  display: none;
+}
+/* end of nav bar css mobile */
+
+/* search bar css mobile */
+.search {
+  position: relative;
+  font-family: "roboto", 'Open Sans', 'Helvetica Neue', sans-serif;
+  color:  #1f2c38;
+  font-size: 1.5rem;
+
+}
+.search-results {
+  display: none;
+  position: absolute;
+  font-family: "roboto", 'Open Sans', 'Helvetica Neue', sans-serif;
+  color:  #1f2c38;
+  font-size: 1.3rem;
+  background-color:white;
+  width: 100%;
+  border-radius: 10px;
+}
+
+.search:hover .search-results {
+  display: block;
+}
+
+.search-results ul {
+  padding: 2px;
+  margin: 0;
+}
+
+.search-results li {
+  list-style: none;
+  text-align: left;
+  padding: 2px;
+}
+
+.search-results li:hover {
+  background-color: rgb(19, 177, 129, 0.6);
+  transition: background-color .2s, color .2s;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+/* end of search bar css mobile */
 
 
 
   /* 34-39 conflict with the navbar one at lines 123-127*/  
-  @media only screen and (max-width: 768px) {
+  @media screen and (min-width: 768px) {
     /* For mobile phones: */
     [class*="col-"] {
       width: 100%;
     }
-  }
 
 img {
     width: 70%;
@@ -219,4 +353,54 @@ img {
     height: 30vh;
     margin: 5% 0;
   }     this makes everything fall into one another*/
+
+  /* nav bar css big screen */
+
+.navlist ul {
+  font-size: 2rem;
+}
+
+#search-input {
+  width: 450px;
+  font-size: 1.4rem;
+}
+
+.rightside {
+  padding: 10px;
+}
+
+.navlist ul li {
+  padding: 5px;
+  margin: 5px;
+}
+
+.nav-word {
+  display: inline;
+}
+
+.nav-word:hover {
+  background-color:rgb(19, 177, 129, 0.6);
+  color: #1f2c38;
+
+}
+
+.icon {
+ display: none;
+}
+
+/* end of nav bar css big screen */
+
+
+
+/* search bar css big screen */
+
+.search-results {
+  font-size: 1.5rem;
+  padding: 5px;
+
+}
+  }
+
+/* end of search bar big screen css */
+
 

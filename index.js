@@ -2,7 +2,7 @@ const plants = [
   { name: "Shade Plants", link: "#" },
   { name: "Sunny Plants", link: "#" },
   { name: "Succulents", link: "#" },
-  { name: "Easy-care Plants", link: "#" },
+  { name: "Easy care Plants", link: "#" },
 ]
 
 function searchFunction() {

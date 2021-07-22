@@ -4,38 +4,45 @@
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewpoint" content="width=device-width" initial-scale="1-0">
-        <script src="/index.js"></script>
-        <script src=“https://kit.fontawesome.com/288a4a188a.js” crossorigin=“anonymous”></script>
-        <script type="text/javascript" src="/JS/navBar.js"></script>
+        <script src="https://kit.fontawesome.com/288a4a188a.js" crossorigin="anonymous"></script>
+        <link rel="stylesheet" type="text/css" href="./aboutUs.css">  
+        <!-- <script type="text/javascript" src="/JS/navBar.js"></script> -->
         <!--Can we rethink the fonts? I feel that this one makes everything bolded and very intense-->
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&family=Roboto:wght@300&display=swap" rel="stylesheet">
         <title>About and Goals- Topaz</title>
-        <link rel="stylesheet" type="text/css" href="./aboutUs.css">  
-        
     </head>
 
     <body>
 <!--Nav bar--> 
-    <nav>
-        <div class="navlist">
-            <ul>
-                <li><span class="fas fa-bars"></span></li>
-                <li>Toplantz</li>
-             </ul>
-        </div>
-        <div class="rightside">
-        <input id="searchbar" type="text" placeholder="Search...">
-        <span class="icon fas fa-sign-in-alt"></span>
-        <span class="icon fas fa-home"></span>
-        <span class="icon fas fa-info-circle"></span>
-        <span class="nav-word">Home</span>
-        <span class="nav-word">About Us</span>
-        <span class="nav-word">Register</span>
-         </div>
-  </nav>
-
+<nav>
+  <div class="navlist">
+    <ul>
+      <a href="./index.html"> <li><span class="fab fa-pagelines"></span></li></a>
+      <a href="./index.html"> <li>Toplantz</li></a>
+    </ul>
+  </div>
+  <div class="rightside">
+    <div class="search">
+      <input id="search-input" type="text" placeholder="Search..." onKeyUp="searchFunction()">
+      <div class="search-results">
+        <ul>
+        <a href="./InfoPagesCode/HTML/shadePlants.html"> <li>Shade Plants</li></a> 
+         <a href="./InfoPagesCode/HTML/sunPlants.html"><li>Sunny Plants</li></a> 
+        <a href="./InfoPagesCode/HTML/succulentPlants.html"><li>Succulents</li></a>
+        <a href="./InfoPagesCode/HTML/easyPlants.html"><li>Easy-care Plants</li></a> 
+        </ul>
+      </div>
+    </div>
+    <a href="./aboutUs forlder/aboutUs.html"><span class="icon fas fa-info-circle"></span></a>
+    <span class="icon fas fa-leaf"></span>
+    <a href="./register form.html"><span class="icon fas fa-sign-in-alt"></span></a>
+    <span class="nav-word"><a href="./aboutUs forlder/aboutUs.html">About Us</a></span>
+    <span class="nav-word">Plant Care</span>
+    <span class="nav-word"><a href="./register form.html">Register</a></span>
+  </div>
+</nav>
   <br>
   <br>
   
@@ -119,12 +126,12 @@
                   <a href="https://www.instagram.com/" target="_blank"><i class="fab fa-instagram"></i></a>
                   <a href="https://www.linkedin.com/" target="_blank"><i class="fab fa-linkedin-in"></i></a>
                 </div>
-              <img src="/InfoPagesCode/imagesLogo/Toplantz_free-file.png" alt="Logo" height="100px">
+              <img src="../../cfg-final-project/InfoPagesCode/imagesLogo/Toplantz_free-file.png" alt="Logo" height="100px">
               </div>
               <p class="copyright">Topaz Group 2021 © </p>
               </div>
             </footer>
-        
+            <script src="/index.js"></script>
     </body>
 
 

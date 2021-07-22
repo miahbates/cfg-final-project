@@ -226,7 +226,10 @@ form .gender-details .category{
 }
 
 .gender-details .category label{
-display: flex;
+  display: grid;
+  grid-template-columns:min-content auto;
+  grid-gap: 20em;
+}
 
 }
 
@@ -248,7 +251,8 @@ form .button input{
     font-weight: 500;
     border-radius: 5px;
     letter-spacing: 1px;
-    background: linear-gradient(135deg,#f9f6f0,#b3c4af,);
+   
+    background-color: #928b7e;
 }
 
 form .button input:hover{

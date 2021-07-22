@@ -256,6 +256,7 @@ form .button input:hover{
 
 a {
     text-decoration: none;
+    color: inherit;
 }
 
 

@@ -221,7 +221,7 @@ form .gender-details .category{
     width: 80%;
     margin: 14px 0 ;
     vertical-align: auto;
-    justify-content: space-evenly;
+    justify-content: space-between;
 }
 
 .gender-details .category label{
@@ -252,25 +252,16 @@ form .button input:hover{
 }
 
   
-.return-button{
-    font-size:18px ;
-    text-align: center;  
-}
+
 
 a {
     text-decoration: none;
 }
 
-/* a{
-    background-color: rgb(241, 216, 216);
-  color: rgb(17, 16, 16);
-  padding: 5px 50px;
-  text-decoration: none;
-  text-transform: uppercase;
-} */
+
 
 a:hover{
-    background-color: rgb(192, 144, 144);
+    background-color: rgb(235, 196, 196);
     color: blue;
 }
     
@@ -370,7 +361,7 @@ a:hover{
     padding: 5px;
   
   }
-}
+} }
   /* end of search bar big screen css */
   
     

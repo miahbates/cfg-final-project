@@ -213,20 +213,24 @@ form .user-details .input-box{
 form .gender-details .gender-title{
     font-size:20px ;
     font-weight: 500;
+    position: relative;
 
 }
 
 form .gender-details .category{
-    display: inline-flex;
-    width: 80%;
-    margin: 14px 0 ;
+   display: flex;
+    width: 100%;
+    margin: 10px 0 ;
     vertical-align: auto;
-    justify-content: space-between;
+    
 }
 
 .gender-details .category label{
 display: flex;
+
 }
+
+
 
 
 form .button{
@@ -255,6 +259,7 @@ form .button input:hover{
 
 
 a {
+  
     text-decoration: none;
     color: inherit;
 }

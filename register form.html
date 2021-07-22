@@ -4,11 +4,43 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/288a4a188a.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="./register.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&family=Roboto:wght@300&display=swap" rel="stylesheet">
     <script src="./register.js"></script>
     <title>Register</title>
 </head>
 <body>
+    <nav>
+        <div class="navlist">
+          <ul>
+            <li><span class="fab fa-pagelines"></span></li>
+            <li>Toplantz</li>
+          </ul>
+        </div>
+        <div class="rightside">
+          <div class="search">
+            <input id="search-input" type="text" placeholder="Search..." onKeyUp="searchFunction()">
+            <div class="search-results">
+              <ul>
+                <li>Shade Plants</li>
+                <li>Sunny Plants</li>
+                <li>Succulents</li>
+                <li>Easy-care Plants</li>
+              </ul>
+            </div>
+          </div>
+          <a href=""><span class="icon fas fa-info-circle"></span></a>
+          <a href="#"><span class="icon fas fa-leaf"></span></a>
+          <a href="./register form.html"><span class="icon fas fa-sign-in-alt"></span></a>
+          <span class="nav-word">About Us</span>
+          <span class="nav-word">Plant Care</span>
+          <span class="nav-word"><a href="./register form.html">Register</a></span>
+        </div>
+      </nav>
+      <div class ="main-content">
     <div class="container">
         <div class="title">Registration</div>
         <form id="registerForm">
@@ -85,6 +117,7 @@
 
         </form>
 </div>
+      </div>
 
 
     

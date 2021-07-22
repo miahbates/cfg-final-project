@@ -17,7 +17,7 @@ function searchFunction() {
 
   // Check if each plant matches the search
   if (plants[i].name.includes(value)) {
-      // If it matches, add it to the empty array
+  // If it matches, add it to the empty array
       resultsArr.push(plants[i]);
     }
   }

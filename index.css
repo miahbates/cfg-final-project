@@ -269,6 +269,11 @@ footer {
   margin: auto;
 }
 
+.copyright {
+  padding: 20px;
+  margin: 0 auto;
+}
+
 
 @media screen and (min-width: 768px) {
   section {

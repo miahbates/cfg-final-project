@@ -231,7 +231,7 @@ form .gender-details .category{
   grid-gap: 20em;
 }
 
-}
+
 
 
 
@@ -251,7 +251,6 @@ form .button input{
     font-weight: 500;
     border-radius: 5px;
     letter-spacing: 1px;
-   
     background-color: #928b7e;
 }
 
